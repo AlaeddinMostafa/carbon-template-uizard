@@ -65,5 +65,7 @@
     "modernizr-config.json",
     "README.md"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
 }
