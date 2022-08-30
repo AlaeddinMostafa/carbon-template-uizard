@@ -2,12 +2,12 @@ main{
   background-color: #ffffff;
   .box{
     width: calc(33% - 10px);
-    height: 211px;
+    height: 200px;
     background-color: #F4F4F4;
     margin: 0 auto;
   }
   .left-box-contact{
-    margin: 30px auto;
+    margin: 8px auto;
     background-image: url("../img/high-rise-glass-building.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -17,9 +17,9 @@ main{
     color: #ffffff;
   }
   .right-box-contact{
-    margin: 30px auto;
+    margin: 8px auto;
     width: 32%;
-    height: 210px;
+    height: 200px;
     background-color: #F4F4F4;
   }
   .bg-img-custom{

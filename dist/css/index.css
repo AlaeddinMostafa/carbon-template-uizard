@@ -34,7 +34,7 @@ header nav ul .icon-group {
 
 .side_nav {
   width: 50px;
-  height: 100vh;
+  height: 100%;
 }
 .side_nav ul {
   margin: 0;
@@ -55,12 +55,12 @@ main {
 }
 main .box {
   width: calc(33% - 10px);
-  height: 211px;
+  height: 200px;
   background-color: #F4F4F4;
   margin: 0 auto;
 }
 main .left-box-contact {
-  margin: 30px auto;
+  margin: 8px auto;
   background-image: url("../img/high-rise-glass-building.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
@@ -70,9 +70,9 @@ main .left-box-contact {
   color: #ffffff;
 }
 main .right-box-contact {
-  margin: 30px auto;
+  margin: 8px auto;
   width: 32%;
-  height: 210px;
+  height: 200px;
   background-color: #F4F4F4;
 }
 main .bg-img-custom {
