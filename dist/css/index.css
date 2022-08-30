@@ -32,4 +32,54 @@ header nav ul .icon-group {
   color: #ffffff;
 }
 
+.side_nav {
+  width: 50px;
+  height: 100vh;
+}
+.side_nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.side_nav ul li {
+  margin: 6px auto;
+}
+.side_nav ul li a {
+  font-size: 1rem;
+  color: #000000;
+}
+
+main {
+  background-color: #ffffff;
+}
+main .box {
+  width: calc(33% - 10px);
+  height: 211px;
+  background-color: #F4F4F4;
+  margin: 0 auto;
+}
+main .left-box-contact {
+  margin: 30px auto;
+  background-image: url("../img/high-rise-glass-building.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+  width: 66%;
+  height: 210px;
+  color: #ffffff;
+}
+main .right-box-contact {
+  margin: 30px auto;
+  width: 32%;
+  height: 210px;
+  background-color: #F4F4F4;
+}
+main .bg-img-custom {
+  background-image: url("../img/fast-light-trafic.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
 /*# sourceMappingURL=index.css.map */
