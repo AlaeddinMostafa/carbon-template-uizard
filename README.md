@@ -5,12 +5,12 @@
 [![NPM Downloads](https://img.shields.io/npm/dt/html5-boilerplate.svg)](https://www.npmjs.com/package/html5-boilerplate)
 [![github-stars-image](https://img.shields.io/github/stars/h5bp/html5-boilerplate.svg?label=github%20stars)](https://github.com/h5bp/html5-boilerplate)
 
-> Designed by uizard and coded by Mostafa Aladdin
+> <span style="font-family : 'comic sans ms'">Designed by uizard and coded by Mostafa Aladdin</span>
 
-- A management template has several forms and this template is categorized as easy templates in terms of UI
-- This template is available in three versions: desktop, tablet and mobile
-- You can help me in expanding this format
+- <span style="font-family : 'comic sans ms'">A management template has several forms and this template is categorized as easy templates in terms of UI</span>
+- <span style="font-family : 'comic sans ms'">This template is available in three versions: desktop, tablet and mobile</span>
+-<span style="font-family : 'comic sans ms'"> You can help me in expanding this format</span>
 
-> Email : Mostafa.alaeddin@outlook.de
+> <span style="font-family : 'comic sans ms'">Email : Mostafa.alaeddin@outlook.de</span>
 > 
-> Phone : +989112953716
+> <span style="font-family : 'comic sans ms'">Phone : +989112953716</span>
