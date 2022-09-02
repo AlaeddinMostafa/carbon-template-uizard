@@ -1,0 +1,79 @@
+header {
+  width: 100%;
+  height: 64px;
+  background-color: #161616;
+  font-family: "comic sans ms", sans-serif;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul .brand-header {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4em;
+}
+header nav ul li form {
+  position: relative;
+  height: 41px;
+}
+header nav ul li form .form-control-header {
+  width: 500px;
+  border: 1px solid transparent;
+  background-color: #262626;
+  border-bottom: 3px solid #A8A8A8;
+  padding: 0 5px;
+  color: white;
+}
+header nav ul li form button {
+  position: absolute;
+  right: 10px;
+}
+header nav ul .icon-group {
+  color: #ffffff;
+}
+
+.side_nav {
+  width: 50px;
+  height: 100%;
+}
+.side_nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.side_nav ul li {
+  margin: 6px auto;
+}
+.side_nav ul li a {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.box-setting {
+  width: 33%;
+  min-height: 80vh;
+  border: 1px solid #F4F4F4;
+  margin: 30px auto;
+  background-color: #F4F4F4;
+  padding: 20px;
+}
+.box-setting hr {
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 10px;
+}
+.box-setting .box-header {
+  min-height: 80px;
+}
+.box-setting .form-box #form-one input[type=text] {
+  width: 49% !important;
+  margin: 0 auto auto 0;
+}
+.box-setting .form-box #form-one select {
+  width: 99%;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.3803921569);
+}
+
+/*# sourceMappingURL=setting.css.map */

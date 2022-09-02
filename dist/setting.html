@@ -1,0 +1,171 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Carbon - settings</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!--  stylesheet files-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/setting.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <!--start header-->
+  <header>
+    <!--  start nav -->
+    <nav>
+      <ul class="d-flex justify-content-between align-items-center align-content-center">
+        <!--  start brand links  -->
+        <li><a href="" class="brand-header">Carbon Cloud Dashboard</a></li>
+        <!--  end brand links  -->
+        <!--      start search form-->
+        <li>
+          <form action="#" method="post" role="search" class=" my-2 mx-0 d-flex">
+            <input type="search" name="search" id="search" placeholder="search resource ..."
+              class="form-control-header">
+            <button class="btn text-light"><i class="fa-regular fa-magnifying-glass"></i></button>
+          </form>
+        </li>
+        <!--      end search form-->
+        <li class="mx-2 icon-group">
+          <a href="#" class="me-3 text-light"><i class="fa-thin fa-highlighter"></i></a>
+          <a href="#" class="me-3 text-light"><i class="fa-thin fa-bell-on"></i></a>
+          <a href="#" class="me-3 text-light"><i class="fa-thin fa-user"></i></a>
+        </li>
+      </ul>
+    </nav>
+    <!--  end nav -->
+  </header>
+  <!--end header-->
+  <!--start main-->
+
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <!--      start side navigation bar-->
+        <div class="col-xxl-1 col-xl-1 col-md-1 col-sm-2">
+          <div class="side_nav">
+            <ul>
+              <li id="toggle-menu"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-house"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-cloud"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-database"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-code"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-user-group"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-arrows-rotate"></i></a></li>
+              <li><a href="#"><i class="fa-solid fa-plus"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!--end side navigation bar-->
+        <!--start contact-->
+        <div class="col-xxl-10 col-xl-10 col-md-10 col-sm-10">
+          <!--start form box - user setting-->
+          <div class="container-fluid">
+            <div class="row">
+              <div class="box-setting">
+                <h4>User Setting</h4>
+                <p class="text-muted box-header">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque ducimus laboriosam nulla provident
+                  rerum saepe suscipit ut.
+                </p>
+                <hr>
+                <div class="form-box">
+                  <h5>Personal Info</h5>
+                  <form action="#" method="post" role="form" id="form-one">
+                    <div class="my-2 d-flex">
+                      <input type="text" name="name" id="name" placeholder="First Name">
+                      <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                    </div>
+                    <div class="my-2 d-flex">
+                      <div class="col-12">
+                        <select name="country" id="country">
+                          <option selected disabled>Country</option>
+                        </select>
+                      </div>
+                    </div>
+                    <hr class="my-3"/>
+                    <h4>Notification</h4>
+                    <div class="form-check form-switch d-flex justify-content-between" style="padding: 0;">
+                      <p class="form-check-label">Weekly Reports</p>
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">                      
+                      <!-- <label class="" for="flexSwitchCheckDefault"></label> -->
+                    </div>                    
+                    <div class="form-check form-switch d-flex justify-content-between" style="padding: 0;">
+                      <p class="form-check-label">Pull Request</p>
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">                      
+                      <!-- <label class="" for="flexSwitchCheckDefault"></label> -->
+                    </div>                    
+                    <div class="form-check form-switch d-flex justify-content-between" style="padding: 0;">
+                      <p class="form-check-label">Deployment Triggers</p>
+                      <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">                      
+                      <!-- <label class="" for="flexSwitchCheckDefault"></label> -->
+                    </div>                    
+                    <hr>
+                    <div class="d-flex justify-content-center">
+                      <button class="btn btn-md btn-primary pe-5 ps-5 me-4" style="border-radius: 0;">Save</button>
+                      <button class="btn btn-md btn-outline-primary pe-5 ps-5 ms-4" style="border-radius: 0;">Cancel</button>
+                    </div>
+                    <hr>                    
+                  </form>
+                  <form action="#" method="post" role="form">
+                    <h4>Danger Zone</h4>
+                    <button class="btn btn-md btn-danger pe-4 ps-4" style="border-radius: 0;">Delete Acoount</button>
+                  </form>
+                </div>
+              </div>
+              <div class="box-setting">
+                <h4>User Setting</h4>
+                <p class="text-muted box-header">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur atque dignissimos eveniet
+                  impedit
+                </p>
+                <hr>
+              </div>
+              <div class="box-setting">
+                <h4>User Setting</h4>
+                <p class="text-muted box-header">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur culpa deserunt dignissimos,
+                  distinctio
+                </p>
+                <hr>
+              </div>
+            </div>
+          </div>
+          <!--end form box-->
+        </div>
+        <!--end contact-->
+      </div>
+    </div>
+  </main>
+  <!--end main-->
+
+
+  <script src="js/vendor/modernizr-3.12.0.min.js"></script>
+  <script src="js/all.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <script>
+
+  </script>
+</body>
+
+</html>
