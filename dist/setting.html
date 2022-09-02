@@ -78,9 +78,10 @@
         <!--end side navigation bar-->
         <!--start contact-->
         <div class="col-xxl-10 col-xl-10 col-md-10 col-sm-10">
-          <!--start form box - user setting-->
+          <!--start form box-->
           <div class="container-fluid">
             <div class="row">
+              <!-- start personal info - user setting -->
               <div class="box-setting">
                 <h4>User Setting</h4>
                 <p class="text-muted box-header">
@@ -132,14 +133,64 @@
                   </form>
                 </div>
               </div>
+              <!-- end personal info - user setting -->
+              <!-- start automantion box -->
               <div class="box-setting">
-                <h4>User Setting</h4>
+                <h4>Automantion</h4>
                 <p class="text-muted box-header">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam aspernatur atque dignissimos eveniet
                   impedit
                 </p>
                 <hr>
+                <form action="#" method="post" role="form">
+                  <h4>Security</h4>
+                  <div class="form-check d-flex justify-content-between p-0">
+                    <p>Run Security checks upon login</p>
+                    <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck1">                                        
+                  </div>
+                  <div class="form-check d-flex justify-content-between p-0">
+                    <p>Route Private keys every months</p>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">                                        
+                  </div>
+                  <div class="form-check d-flex justify-content-between p-0">
+                    <p>Automaticlly shot down idle</p>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">                                        
+                  </div>
+                  <div class="form-check d-flex justify-content-between p-0">
+                    <p>Enforce two-factory authentication</p>
+                    <input class="form-check-input" type="checkbox" checked value="" id="defaultCheck1">                                        
+                  </div>
+                  <div class="form-check d-flex justify-content-between p-0">
+                    <p>Always Upgrade vulnerable dependencies</p>
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">                                        
+                  </div>
+                  <hr>
+                  <div>
+                    <label for="customRange2" class="form-label">Password Policy Strictness</label>
+                    <div class="d-flex justify-content-between">
+                      <span class="me-4">less</span>
+                      <input type="range" class="form-range" min="0" max="5" id="customRange2">
+                      <span class="ms-4">More</span>
+                    </div>
+                  </div>
+                  <hr>
+                  <!-- start Data Backup -->
+                  <div class="form-check d-flex justify-content-between">
+                    <span>Store to defferent regions</span>
+                    <input type="radio" name="flexRadioDefault" id="flexRadioDefault1">                    
+                  </div>
+                  <div class="form-check d-flex justify-content-between">
+                    <span>Create duplicates in same region</span>                  
+                    <input type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  </div>
+                  <div class="form-check d-flex justify-content-between">
+                    <span>Soft backups on instances</span>
+                    <input type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+                  </div>
+                  <!-- end Data Backup -->
+                </form>
               </div>
+              <!-- end automantion box -->
               <div class="box-setting">
                 <h4>User Setting</h4>
                 <p class="text-muted box-header">
