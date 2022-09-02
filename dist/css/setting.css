@@ -75,5 +75,17 @@ header nav ul .icon-group {
   height: 30px;
   border: 1px solid rgba(0, 0, 0, 0.3803921569);
 }
+.box-setting #card_number {
+  width: 100%;
+  height: 35px;
+}
+.box-setting #expire {
+  width: 78%;
+  height: 35px;
+}
+.box-setting #cvc {
+  width: 20%;
+  height: 35px;
+}
 
 /*# sourceMappingURL=setting.css.map */
