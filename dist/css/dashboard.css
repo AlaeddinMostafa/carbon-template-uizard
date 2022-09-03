@@ -1,0 +1,66 @@
+header {
+  width: 100%;
+  height: 64px;
+  background-color: #161616;
+  font-family: "comic sans ms", sans-serif;
+}
+header nav ul {
+  list-style-type: none;
+}
+header nav ul .brand-header {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.4em;
+}
+header nav ul li form {
+  position: relative;
+  height: 41px;
+}
+header nav ul li form .form-control-header {
+  width: 500px;
+  border: 1px solid transparent;
+  background-color: #262626;
+  border-bottom: 3px solid #A8A8A8;
+  padding: 0 5px;
+  color: white;
+}
+header nav ul li form button {
+  position: absolute;
+  right: 10px;
+}
+header nav ul .icon-group {
+  color: #ffffff;
+}
+
+.side_nav {
+  width: 50px;
+  height: 100%;
+}
+.side_nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+.side_nav ul li {
+  margin: 6px auto;
+}
+.side_nav ul li a {
+  font-size: 1rem;
+  color: #000000;
+}
+
+.list-box {
+  list-style-type: none;
+}
+
+.bg-image {
+  background-image: url("../img/world-light.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.bg-image h4 {
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=dashboard.css.map */
