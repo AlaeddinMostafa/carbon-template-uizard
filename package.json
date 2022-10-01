@@ -66,7 +66,7 @@
     "README.md"
   ],
   "dependencies": {
-    "bootstrap": "^5.2.0",
+    "bootstrap": "^5.2.1",
     "country-js": "^0.0.9"
   }
 }
